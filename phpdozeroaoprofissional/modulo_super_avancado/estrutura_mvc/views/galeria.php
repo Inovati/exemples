@@ -1,0 +1,3 @@
+Galeria de Fotos... 
+
+Aqui temos nossa galeria <?= $qtd ?>
