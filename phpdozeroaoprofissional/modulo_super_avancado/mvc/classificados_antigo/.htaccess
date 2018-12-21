@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /courses/phpdozeroaoprofissional/modulo_super_avancado/mvc/classificados_antigo/index.php?url=$1 [QSA,L]
